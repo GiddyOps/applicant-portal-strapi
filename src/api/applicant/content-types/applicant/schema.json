@@ -11,14 +11,53 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "fullName": {
-      "type": "string"
-    },
     "email": {
       "type": "email"
     },
-    "dob": {
-      "type": "date"
+    "qualifications": {
+      "type": "component",
+      "component": "qualifications.qualifications",
+      "repeatable": false
+    },
+    "personalInfo": {
+      "type": "component",
+      "component": "personal-info.personal-information",
+      "repeatable": false
+    },
+    "experience": {
+      "type": "component",
+      "component": "experience.work-experience",
+      "repeatable": false
+    },
+    "availability": {
+      "type": "component",
+      "component": "availability.day-availability",
+      "repeatable": true
+    },
+    "agreements": {
+      "type": "component",
+      "component": "agreements.agreement-confirmation",
+      "repeatable": false
+    },
+    "user": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "applicants"
+    },
+    "applicationStatus": {
+      "type": "enumeration",
+      "enum": [
+        "applicationStarted",
+        "applicationSubmitted",
+        "activated",
+        "review",
+        "interview",
+        "onboarding",
+        "locationRejected",
+        "applicantRejected",
+        "expired"
+      ]
     }
   }
 }

@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_availability_day_availabilities",
+  "info": {
+    "displayName": "Day Availability"
+  },
+  "options": {},
+  "attributes": {
+    "day": {
+      "type": "enumeration",
+      "enum": [
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday",
+        "saturday",
+        "sunday"
+      ]
+    },
+    "morning": {
+      "type": "boolean"
+    },
+    "afternoon": {
+      "type": "boolean"
+    },
+    "evening": {
+      "type": "boolean"
+    },
+    "none": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}

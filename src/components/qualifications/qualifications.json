@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_qualifications_qualifications",
+  "info": {
+    "displayName": "Qualifications"
+  },
+  "options": {},
+  "attributes": {
+    "has_license": {
+      "type": "boolean"
+    },
+    "can_pickup": {
+      "type": "boolean"
+    },
+    "has_washer_dryer": {
+      "type": "boolean"
+    },
+    "understands_labels": {
+      "type": "boolean"
+    },
+    "can_iron_airdry": {
+      "type": "boolean"
+    },
+    "can_lift_40lbs": {
+      "type": "boolean"
+    },
+    "felony_conviction": {
+      "type": "boolean"
+    },
+    "has_smartphone": {
+      "type": "boolean"
+    },
+    "no_smoke": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}

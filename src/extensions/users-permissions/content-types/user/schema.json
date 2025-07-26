@@ -66,8 +66,15 @@
       "inversedBy": "users",
       "configurable": false
     },
-    "Test": {
-      "type": "string"
+    "applicants": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::applicant.applicant",
+      "mappedBy": "user"
+    },
+    "applied": {
+      "type": "boolean",
+      "default": false
     }
   }
 }

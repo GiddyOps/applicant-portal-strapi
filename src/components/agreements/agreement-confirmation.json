@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_agreements_agreement_confirmations",
+  "info": {
+    "displayName": "Agreement Confirmation"
+  },
+  "options": {},
+  "attributes": {
+    "nda_exposure": {
+      "type": "boolean"
+    },
+    "nda_good_faith": {
+      "type": "boolean"
+    },
+    "nda_confidentiality": {
+      "type": "boolean"
+    },
+    "nda_noncompete": {
+      "type": "boolean"
+    },
+    "application_certification": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}

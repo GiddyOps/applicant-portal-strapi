@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_experience_work_experiences",
+  "info": {
+    "displayName": "Work Experience"
+  },
+  "options": {},
+  "attributes": {
+    "previousWorkExperience": {
+      "type": "text"
+    },
+    "priorExperiencePreparation": {
+      "type": "text"
+    },
+    "laundryProcess": {
+      "type": "text"
+    },
+    "orderOrganization": {
+      "type": "text"
+    },
+    "washerDryerInfo": {
+      "type": "text"
+    },
+    "vehicleInfo": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}
