@@ -75,6 +75,30 @@
     "applied": {
       "type": "boolean",
       "default": false
+    },
+    "address_line_1": {
+      "type": "string"
+    },
+    "address_line_2": {
+      "type": "string"
+    },
+    "dob": {
+      "type": "date"
+    },
+    "city": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string"
+    },
+    "postal_code": {
+      "type": "string"
+    },
+    "phone_number": {
+      "type": "string"
+    },
+    "full_name": {
+      "type": "string"
     }
   }
 }
