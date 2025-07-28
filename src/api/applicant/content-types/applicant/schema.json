@@ -47,6 +47,7 @@
     },
     "applicationStatus": {
       "type": "enumeration",
+      "default": "applicationSubmitted",
       "enum": [
         "applicationStarted",
         "applicationSubmitted",
