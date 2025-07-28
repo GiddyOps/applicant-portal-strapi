@@ -45,12 +45,12 @@ export interface ExperienceWorkExperience extends Struct.ComponentSchema {
     displayName: 'Work Experience';
   };
   attributes: {
-    laundryProcess: Schema.Attribute.Text;
-    orderOrganization: Schema.Attribute.Text;
-    previousWorkExperience: Schema.Attribute.Text;
-    priorExperiencePreparation: Schema.Attribute.Text;
-    vehicleInfo: Schema.Attribute.Text;
-    washerDryerInfo: Schema.Attribute.Text;
+    laundry_process: Schema.Attribute.Text;
+    order_organization: Schema.Attribute.Text;
+    previous_work_experience: Schema.Attribute.Text;
+    prior_experience_preparation: Schema.Attribute.Text;
+    vehicle_info: Schema.Attribute.Text;
+    washer_dryer_info: Schema.Attribute.Text;
   };
 }
 
@@ -66,7 +66,7 @@ export interface PersonalInfoPersonalInformation
     city: Schema.Attribute.String;
     dob: Schema.Attribute.Date;
     fullName: Schema.Attribute.String;
-    phoneNumber: Schema.Attribute.String;
+    phone_number: Schema.Attribute.String;
     postal_code: Schema.Attribute.String;
     state: Schema.Attribute.String;
   };

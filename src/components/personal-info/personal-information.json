@@ -23,7 +23,7 @@
     "postal_code": {
       "type": "string"
     },
-    "phoneNumber": {
+    "phone_number": {
       "type": "string"
     },
     "fullName": {

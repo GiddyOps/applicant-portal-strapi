@@ -5,22 +5,22 @@
   },
   "options": {},
   "attributes": {
-    "previousWorkExperience": {
+    "previous_work_experience": {
       "type": "text"
     },
-    "priorExperiencePreparation": {
+    "prior_experience_preparation": {
       "type": "text"
     },
-    "laundryProcess": {
+    "laundry_process": {
       "type": "text"
     },
-    "orderOrganization": {
+    "order_organization": {
       "type": "text"
     },
-    "washerDryerInfo": {
+    "washer_dryer_info": {
       "type": "text"
     },
-    "vehicleInfo": {
+    "vehicle_info": {
       "type": "text"
     }
   },
