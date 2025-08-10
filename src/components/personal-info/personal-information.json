@@ -28,6 +28,9 @@
     },
     "fullName": {
       "type": "string"
+    },
+    "referral_code": {
+      "type": "string"
     }
   },
   "config": {}

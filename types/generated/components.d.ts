@@ -68,6 +68,7 @@ export interface PersonalInfoPersonalInformation
     fullName: Schema.Attribute.String;
     phone_number: Schema.Attribute.String;
     postal_code: Schema.Attribute.String;
+    referral_code: Schema.Attribute.String;
     state: Schema.Attribute.String;
   };
 }
