@@ -8,6 +8,9 @@
     "has_license": {
       "type": "boolean"
     },
+    "authorized_to_work": {
+      "type": "boolean"
+    },
     "can_pickup": {
       "type": "boolean"
     },

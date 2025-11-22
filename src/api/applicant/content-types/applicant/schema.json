@@ -54,11 +54,17 @@
         "activated",
         "review",
         "interview",
+        "interviewReview",
         "onboarding",
         "locationRejected",
         "applicantRejected",
         "expired"
       ]
+    },
+    "mediaData": {
+      "type": "component",
+      "component": "shared.media-data",
+      "repeatable": false
     }
   }
 }

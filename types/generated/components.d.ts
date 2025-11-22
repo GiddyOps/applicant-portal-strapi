@@ -79,6 +79,7 @@ export interface QualificationsQualifications extends Struct.ComponentSchema {
     displayName: 'Qualifications';
   };
   attributes: {
+    authorized_to_work: Schema.Attribute.Boolean;
     can_iron_airdry: Schema.Attribute.Boolean;
     can_lift_40lbs: Schema.Attribute.Boolean;
     can_pickup: Schema.Attribute.Boolean;
@@ -99,6 +100,35 @@ export interface SharedMedia extends Struct.ComponentSchema {
   };
   attributes: {
     file: Schema.Attribute.Media<'images' | 'files' | 'videos'>;
+  };
+}
+
+export interface SharedMediaData extends Struct.ComponentSchema {
+  collectionName: 'components_shared_media_data';
+  info: {
+    displayName: 'MediaData';
+    icon: 'attachment';
+  };
+  attributes: {
+    driversLicense: Schema.Attribute.Media<
+      'images' | 'files' | 'videos' | 'audios',
+      true
+    >;
+    foldedItemsImages: Schema.Attribute.Media<
+      'images' | 'files' | 'videos' | 'audios',
+      true
+    >;
+    introVideo: Schema.Attribute.Media<
+      'images' | 'files' | 'videos' | 'audios'
+    >;
+    washingMachineLabel: Schema.Attribute.Media<
+      'images' | 'files' | 'videos' | 'audios',
+      true
+    >;
+    workspaceImages: Schema.Attribute.Media<
+      'images' | 'files' | 'videos' | 'audios',
+      true
+    >;
   };
 }
 
@@ -162,6 +192,7 @@ declare module '@strapi/strapi' {
       'personal-info.personal-information': PersonalInfoPersonalInformation;
       'qualifications.qualifications': QualificationsQualifications;
       'shared.media': SharedMedia;
+      'shared.media-data': SharedMediaData;
       'shared.quote': SharedQuote;
       'shared.rich-text': SharedRichText;
       'shared.seo': SharedSeo;

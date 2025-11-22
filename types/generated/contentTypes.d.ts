@@ -395,6 +395,7 @@ export interface ApiApplicantApplicant extends Struct.CollectionTypeSchema {
         'activated',
         'review',
         'interview',
+        'interviewReview',
         'onboarding',
         'locationRejected',
         'applicantRejected',
@@ -417,6 +418,7 @@ export interface ApiApplicantApplicant extends Struct.CollectionTypeSchema {
       'api::applicant.applicant'
     > &
       Schema.Attribute.Private;
+    mediaData: Schema.Attribute.Component<'shared.media-data', false>;
     personalInfo: Schema.Attribute.Component<
       'personal-info.personal-information',
       false
