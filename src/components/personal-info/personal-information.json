@@ -29,6 +29,12 @@
     "fullName": {
       "type": "string"
     },
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
     "referral_code": {
       "type": "string"
     }

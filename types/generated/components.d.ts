@@ -65,7 +65,9 @@ export interface PersonalInfoPersonalInformation
     address_line_2: Schema.Attribute.String;
     city: Schema.Attribute.String;
     dob: Schema.Attribute.Date;
+    firstName: Schema.Attribute.String;
     fullName: Schema.Attribute.String;
+    lastName: Schema.Attribute.String;
     phone_number: Schema.Attribute.String;
     postal_code: Schema.Attribute.String;
     referral_code: Schema.Attribute.String;
